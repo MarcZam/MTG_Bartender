@@ -1,4 +1,5 @@
 -- Core schema for MTG Bartender MVP
+-- Rasti Training
 
 CREATE TABLE stores (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
