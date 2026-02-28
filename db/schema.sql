@@ -1,4 +1,5 @@
 -- Core schema for MTG Bartender MVP
+-- Marcos wapo
 
 CREATE TABLE stores (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -64,4 +65,7 @@ CREATE TABLE matches (
   status text DEFAULT 'pending',
   scheduled_at timestamptz,
   created_at timestamptz DEFAULT now()
+
+
 );
+
